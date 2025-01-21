@@ -18,5 +18,7 @@ console.log(z);
 
  * En las variables let y var se puede reasignar y en el caso de la variable const no se puede
 
- * Con let se puede declarar varias variables al mismo tiempo  
+ * Con let se puede declarar varias variables al mismo tiempo
+  
+ * Las variables let y const solo estaran disponibles dentro del bloque donde fue declarada 
  */
