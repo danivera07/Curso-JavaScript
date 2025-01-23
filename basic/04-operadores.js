@@ -1,4 +1,4 @@
-
+    
 //OPERADORES
 const variable = 'valor de la variable' // = Operador de asignación 
 
