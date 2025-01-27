@@ -81,9 +81,24 @@ asignacionModulo %= 3; // asignacionModulo = 2
 // <=: Menor o igual que
 3 <= 5; // true
 
+// Se utilizan para describir como los valores se comportan en contextos booleanos 
+// TRUTHY VALUES (VALORES VERDADEROS)
+// Todos los numeros positivos y negativos menos el cero 
+// Todas las cadenas de texto menos las vacias 
+// El boolean true 
+
+// FALSY VALUES (VALORES FALSOS)
+// 0
+// 0n
+// null
+// undefined
+// NaN
+// el boolean falso
+// cadenas de texto vacias 
+
 
 // 4. OPERADORES LOGICOS
-// Se utilizan para realizar operaciones lógicas.
+// Se utilizan para realizar operaciones lógicas, es decir si es verdadero o falso 
 
 // &&: Y lógico (AND)
 true && false; // false
@@ -103,6 +118,8 @@ let edad = 18;
 let resultado = edad >= 18 ? 'Adulto' : 'Menor';
 console.log(resultado); // 'Adulto'
 
+const isRaining = false
+isRaining ? console.log("Esta lloviendo") : console.log("no esta lloviendo")
 
 // 6. OPERADORES DE TIPO
 // Estos operadores se usan para realizar conversiones de tipo o para verificar el tipo de una variable.
