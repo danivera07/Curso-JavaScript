@@ -16,7 +16,7 @@ console.log(saludo.toUpperCase()) // Metodo que convierte todo el texto en mayus
 console.log(saludo.toLowerCase()) // Metodo que convierte todo el texto en minuscula
 console.log(saludo.indexOf("Hola,")) // Metodo que devuelve la posicion incial del elemento 
 console.log(saludo.indexOf("mi"))
-console.log(saludo.includes('mucho')) // Metod o que verifica si la cadena contiene el elemento y devuelve un valor booleano 
+console.log(saludo.includes('mucho')) // Metodo que verifica si la cadena contiene el elemento y devuelve un valor booleano 
 console.log(saludo.includes("cata"))
 console.log(saludo.slice(0,5)) // Retorna solo lo que este entre los indices
 console.log(saludo.replace("Daniela", "Diego")) // Busca una palabra y si la encuentra la reemplaza 
